@@ -1,0 +1,109 @@
+$font: 'Pacifico', cursive;
+$blue: #ECF2FF;
+$purple: #E3DFFD;
+$dark-purple: #E5D1FA;
+$darker-purple: #bdb4f0;
+$darkest-purple: #9d8ef4;
+$darkesty-purple: #7c67f3;
+$yellow: #3e3ceb;
+$font2:'Gloock', serif;
+
+body {
+    background: $blue;
+    font-family: $font;
+    color: $dark-purple;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .title {
+        h1 {
+            text-align: center;
+        }
+    }
+
+    .search-container {
+        display: inline-block;
+        margin:auto;
+        text-align: center;
+        border: 3px solid $dark-purple;
+        border-radius: 25px;
+        background-color: $dark-purple;
+        padding:0px 12px;
+    }
+
+    input {
+        border: none;
+        background-color: transparent;
+        font-family: $font;
+        outline: none;
+    }
+
+    button {
+        border: none;
+        background-color: transparent;
+        font-size: large;
+        cursor: pointer;
+    }
+
+    button:active {
+        .search-icon {
+            transform: translateY(2px);
+        }
+
+    }
+    .searchResultDiv{
+        padding:15px;
+        .article-title{
+            margin:0;
+            font-size: 15pt;
+           a{
+            color:black;
+            text-decoration: none;
+           } 
+        }
+        .article-title:hover{
+            text-decoration: underline;
+            color:black;
+        }
+        span{
+            font-size: 10pt;
+            font-family: $font2;
+            a{
+              color:$darker-purple;
+              text-decoration: none;  
+            }
+        }
+        .description{
+            margin:0;
+            font-size: 10pt;
+            color:$darker-purple;
+            font-family: $font2;
+        }
+    }
+}
+//scroll bar customization
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: $dark-purple;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $darker-purple;
+    border-radius: 25px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: $darkesty-purple;
+  }

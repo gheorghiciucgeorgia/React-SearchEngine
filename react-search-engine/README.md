@@ -2,7 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/80405885/220572240-c7efc20a-489c-4450-80eb-7a344cfed978.png)
 
-##Using the API:Search from the MediaWiki
+## Using the API:Search from the MediaWiki
 
 To perform an aadvanced seach for wiki pages by title or context text, I used the HTTP GET request Method. The GET method is applied from a particular source, it is used to get specific variables derived from a group. 
 

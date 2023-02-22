@@ -1,4 +1,4 @@
-#Developing an Wiki Search Engine :mag_right:
+# Developing an Wiki Search Engine :mag_right:
 
 ![image](https://user-images.githubusercontent.com/80405885/220572240-c7efc20a-489c-4450-80eb-7a344cfed978.png)
 
